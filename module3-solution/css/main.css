@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Bahn";
+    src: url('../fonts/BAHNSCHRIFT 3.TTF');
+  }
+@font-face{
+    font-family: "NHaasGrotesk";
+    src: url('../fonts/NHaasGroteskTXPro-65Md.ttf')
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 1500px;
+    font-family: "Bahn";
+}
+
+.navbar-default, .navbar{
+    border: 0;
+    border-radius: 0;
+    background-color: #e62a3e;
+    color: white;
+}
+.navbar-default .navbar-brand{
+    color:white;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #DDDDDD;
+}
+.navbar-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*---NAVBAR MENU BUTTON---*/
+.navbar-default .navbar-toggle:focus{
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: white;
+}
+.navbar-default .navbar-toggle{
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: #333333;
+}
+.navbar-default .navbar-toggle:active .icon-bar{
+    background-color: #333333;
+}
+/*---NAVBAR MENU BUTTON END---*/
+
+
+/*---NAVBAR MENU---*/
+
+#navbar a{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar a:hover{
+    background-color: #B3202F;
+}
+#navbar ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    text-decoration: none;
+    font-family: "Bahn";
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#DDDDDD;
+}
+
+/*---NAVBAR MENU END---*/
+
+.mb-2{
+    margin-bottom: 55px;
+}
+.mt-0{
+    margin-top: 0;
+}
+
+.tsec div.border{
+    background-color: white;
+    border: 2px solid #DDDDDD;
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+.tsec div p{
+    letter-spacing: 1px;
+}
+
+.box-title{
+    font-weight: bold;
+    background-color: #e62a3e;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "NHaasGrotesk";
+    font-weight: lighter;
+}

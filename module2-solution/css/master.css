@@ -7,11 +7,22 @@ html, body{
   padding: 0;
 }
 
+.container{
+  display: relative;
+  width: 100%;
+  padding: 0 100px;
+}
+
+/*TITLE*/
 h1{
   padding: 20px;
   background-color: #e62a3e;
   color: white;
   letter-spacing: 5px;
+}
+.center{
+  text-align: center;
+  font-weight: lighter;
 }
 
 hr{
@@ -22,17 +33,7 @@ hr{
 }
 
 
-.center{
-  text-align: center;
-  font-weight: lighter;
-}
-
-.container{
-  display: relative;
-  width: 100%;
-  padding: 0 100px;
-}
-
+/*--FOOD ITEMS---*/
 .box-container{
   width: 100%;
   padding: 10px;
@@ -67,7 +68,7 @@ hr{
   background-color: white;
   letter-spacing: 1px;
 }
-
+/*---FOOD ITEMS END---*/
 
 @media (min-width: 768px) and (max-width: 991px){
   .box:nth-child(1n+0){
@@ -82,8 +83,6 @@ hr{
     width: 100%;
   }
 }
-
-
 @font-face {
   font-family: "Bahn";
   src: url('../fonts/BAHNSCHRIFT 3.TTF');
